@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DJ Player</title>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel="icon" type="img/png" href="Images/android-chrome-192x192.png">
+    <script src="https://kit.fontawesome.com/f8650f2e71.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--------------------------------Navigation bar------------------------------ -->
+    <section class="navbar">
+        <div class="left">
+            <div class="musicimg">
+                <img class="musicimgf" src="Images/ff410748ba89e79b6bb6e739904cfc08-dj-mixer-illustration-by-vexels.png">
+            </div>
+            <div class="fav">
+                <p>
+                  <h1><b>Favourites</b></h1>
+                </p>
+            </div>
+        </div>
+        <div class="right">
+            <div class="search">
+                <div class="searchbox">
+                    <input class="searchtxt" type="text" name="" placeholder="Type to Search">
+                    <a class="searchbtn" href="#"><i class="fas fa-search"></i></a>
+                </div>
+            </div>
+            <div class="notification">
+               <a href="#"><i class="far fa-bell fa-2x"></i></a>
+            </div>
+            <div class="dp">
+                <img class="dpimg" src="Images/DSC_0142.JPG">
+            </div>
+        </div>
+    </section>
+    <!-------------------------body------------------------------->
+    <section class="rest flexrow">  
+        <!--content------------------------------------------------->    
+        <div class="content flexcol">
+           <div class="carousel flexrow"><!--carousel--------------------------------------------->
+             <div class="cimg" ><img class="imgc" src="Images/album_c1.jpg"></div>
+             <div class="cimg" id="c2i"><img class="imgc" src="Images/album_c2.jpg"></div>
+             <div class="cimg" id="c3i" ><img class="imgc" src="Images/album_c4.jpg"></div>
+            </div>
+            <div class="latestr"><!--latest release-->
+                    <h1>Latest Release</h1>
+            </div>
+            <div class="lsongs flexrow">
+                <div class="ldiv flexrow" id="lrh"><!--link.............................................-->
+                    <div class="lpic"><a class="visi" href="singleplaylist.html">
+                        <i class="fas fa-play fa-4x"></i></a>
+                    </div>
+                    <div class="info"><h2>Song</h2><p>Description</p></div>
+                    <div class="lbtn">
+                        <i class="fas fa-heart fa-2x"></i>
+                    </div>
+                </div>
+                <div class="ldiv flexrow" id="lrh">
+                    <div class="lpic"><a href="singleplaylist.html">
+                        <i class="fas fa-play fa-4x"></i></a>
+                    </div>
+                    <div class="info"><h2>Song</h2><p>Description</p></div>
+                    <div class="lbtn">
+                        <i class="fas fa-heart fa-2x"></i>
+                    </div>
+                </div>
+                <div class="ldiv flexrow" >
+                    <div class="lpic"><a href="singleplaylist.html">
+                        <i class="fas fa-play fa-4x"></i></a>
+                    </div>
+                    <div class="info"><h2>Song</h2><p>Description</p></div>
+                    <div class="lbtn">
+                        <i class="fas fa-heart fa-2x"></i>
+                    </div>
+                </div>
+                <div class="ldiv flexrow" >
+                    <div class="lpic"><a href="singleplaylist.html">
+                        <i class="fas fa-play fa-4x"></i></a>
+                    </div>
+                    <div class="info"><h2>Song</h2><p>Description</p></div>
+                    <div class="lbtn">
+                        <i class="fas fa-heart fa-2x"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="pa"><!--Popular Artists-->
+                <h1>Popular Artists</h1>
+            </div>
+            <div class="popularartist flexrow"><!--popular artist section links-->
+                <div class="artist" id="pa1"><a href="singleplaylist.html">
+                    <i class="fas fa-play fa-4x"></i></a>
+                </div>
+                <div class="artist" id="pa2"><a href="singleplaylist.html">
+                    <i class="fas fa-play fa-4x"></i></a>
+                </div>
+                <div class="artist"><a href="singleplaylist.html">
+                    <i class="fas fa-play fa-4x"></i></a>
+                </div>
+                <div class="artist"><a href="singleplaylist.html">
+                    <i class="fas fa-play fa-4x"></i></a>
+                </div>
+                <div class="artist"><a href="singleplaylist.html">
+                    <i class="fas fa-play fa-4x"></i></a>
+                </div>
+            </div>
+            <div class="ms"><!--Music Station-->
+                <h1>Music Station</h1>
+            </div>
+            <div class="musicstation flexrow"><!--Music Station Section-->
+                <div class="mspic">
+                 <img class="msimg" src="Images/music_station.jfif">
+                </div>
+                
+                    <div class="love circle"></div>                                
+                    <div class="retro circle"></div>                                
+                    <div class="chill circle"></div>
+                    <div class="workout circle"></div>
+                    <div class="rock circle"></div>
+                    <div class="pop circle"></div>
+                </a>
+             </div>
+             <div class="pc"><!--Popular Categories-->
+                <h1>Popular Categories</h1>
+            </div>
+            <div class="popularcategories flexrow">
+                <div class="pimg" ><img class="imgp" src="Images/party.jpg"></div>
+                <div class="pimg" ><img class="imgp" src="Images/electronic.jpg"></div>
+                <div class="pimg" ><img class="imgp" src="Images/roadtrip.jpg"></div>
+            </div>             
+        </div>
+        <!-------------------------------side queue section-->
+        <div class="side flexcol">
+            <div class="queuepart flexrow"><!--queue----dropdown-->
+                <div class="queuetxt">
+                    <h1>Queue</h1>
+                </div>
+                <div class="dropdown">
+                    <ul>
+                        <li>Queue
+                            <ul>
+                                <li>PlayLists </li>
+                                <li>Favorites </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div> <!--queue----dropdown-->
+            <div class="playlist flexcol">
+                <div class="first flexrow">
+                    <div class="song1"></div>
+                    <div class="txt"><h3>song</h3><p>Decription</p></div>
+                    <div class="heart"><i class="far fa-heart"></i></div>
+                </div>
+                <div class="first flexrow">
+                    <div class="song2"></div>
+                    <div class="txt"><h3>song</h3><p>Decription</p></div>
+                    <div class="heart"><i class="far fa-heart"></i></div>
+                </div>
+                <div class="first flexrow">
+                    <div class="song3"></div>
+                    <div class="txt"><h3>song</h3><p>Decription</p></div>
+                    <div class="heart"><i class="far fa-heart"></i></div>
+                </div>
+                <div class="first flexrow">
+                    <div class="song4"></div>
+                    <div class="txt"><h3>song</h3><p>Decription</p></div>
+                    <div class="heart"><i class="far fa-heart"></i></div>
+                </div>
+                <div class="first flexrow">
+                    <div class="song5"></div>
+                    <div class="txt"><h3>song</h3><p>Decription</p></div>
+                    <div class="heart"><i class="far fa-heart"></i></div>
+                </div>
+                <div class="first flexrow">
+                    <div class="song6"></div>
+                    <div class="txt"><h3>song</h3><p>Decription</p></div>
+                    <div class="heart"><i class="far fa-heart"></i></div>
+                </div>
+                <div class="first flexrow">
+                    <div class="song7"></div>
+                    <div class="txt"><h3>song</h3><p>Decription</p></div>
+                    <div class="heart"><i class="far fa-heart"></i></div>
+                </div>
+                <div class="first flexrow">
+                    <div class="song8"></div>
+                    <div class="txt"><h3>song</h3><p>Decription</p></div>
+                    <div class="heart"><i class="far fa-heart"></i></div>
+                </div>
+            </div>              
+        </div>
+    </section><!--musicplayer-------------------------------------------->
+    <section class="musicplayer flexrow">
+        <div class="songinfo">
+            <h1>Song</h1><p>Description</p>
+        </div>
+            <audio controls preload="metadata"class="audioplayer">
+                <source src="Audio/Gurnazar Medley Gurnazar Chattha Groovester Speed Records.mp3" type="audio/ogg">
+            </audio>
+        <div class="playerpic"></div>
+
+    </section>
+    
+</body>
+</html>
